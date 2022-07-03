@@ -171,10 +171,3 @@
         bottom: 100%;
     }
 }
-
-.n-list Link:hover {
-    border: 1px solid red;
-    padding: 4px;
-    border-radius: 50%;
-}
-
