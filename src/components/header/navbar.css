@@ -8,6 +8,7 @@
     width: 96vw;
     z-index: 999;
 }
+
 .n-left {
     flex: 1;
     align-items: center;
@@ -20,6 +21,7 @@
     font-size: 1.3rem;
     font-weight: bold;
 }
+
 .n-right {
     flex: 1;
     display: flex;
@@ -31,13 +33,14 @@
 .n-list {
     flex: 10;
 }
-.n-list > ul {
+
+.n-list>ul {
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
 }
 
-.n-list > ul :hover {
+.n-list>ul :hover {
     color: var(--orange);
     cursor: pointer;
 }
@@ -99,6 +102,7 @@
     0% {
         left: -100%;
     }
+
     50%,
     100% {
         left: 100%;
@@ -119,6 +123,7 @@
     0% {
         top: -100%;
     }
+
     50%,
     100% {
         top: 100%;
@@ -139,6 +144,7 @@
     0% {
         right: -100%;
     }
+
     50%,
     100% {
         right: 100%;
@@ -159,8 +165,16 @@
     0% {
         bottom: -100%;
     }
+
     50%,
     100% {
         bottom: 100%;
     }
 }
+
+.n-list Link:hover {
+    border: 1px solid red;
+    padding: 4px;
+    border-radius: 50%;
+}
+
