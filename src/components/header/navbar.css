@@ -3,10 +3,11 @@
     justify-content: space-between;
     top: 0;
     padding: 2.2rem;
-    background-color: #c0c0c0;
+    /* background-color: #c0c0c0; */
     /* position: fixed; */
     width: 96vw;
     z-index: 999;
+    border-bottom: 0.1px solid black
 }
 .n-left {
     flex: 1;
