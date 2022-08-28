@@ -1,26 +1,34 @@
 html {
     font-size: 62.5%;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
     font: 300 11px/1.4 'Helvetica Neue', sans-serif;
     color: #ffffff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #386d8a;
+    /* background: #386d8a; */
     /* background: #022c43; */
     overflow: hidden;
     display: block;
-  }
-  
-  .dashboard {
+
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(56, 112, 132)),
+        url('./assets/images/background.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+.dashboard {
     margin-top: 200px;
     margin-left: 200px;
-  }
-  
-  @media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1200px) {
     body {
-      overflow: visible;
+        overflow: visible;
     }
-  }
+}
