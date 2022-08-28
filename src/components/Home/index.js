@@ -53,17 +53,12 @@ function Home() {
                     </h1>
                     <h2>
                         React/ Redux/ Typescript/ NodeJs/ Ruby on rails/ Django <br />
-                        <br />
-                        I’m a full-stack software developer! I can help you build a product ,
-                        feature or website. Look through some of my work and experience! If you like
-                        what you see and have a project you need coded, don’t hestiate to contact
-                        me.
                     </h2>
                     <Link to="/contact" className="flat-button">
                         CONTACT ME
                     </Link>
                 </div>
-                <Logo />
+                {/* <Logo /> */}
             </div>
         </>
     );
