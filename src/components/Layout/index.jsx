@@ -1,14 +1,25 @@
 import React from 'react';
-import './index.css';
+import { Outlet } from 'react-router-dom';
 
-function Index() {
+import Sidebar from '../Sidebar';
+import './index.scss';
+
+function Layout() {
     return (
         <>
-            <div>
-                hello there
+            <Sidebar />
+            <div className="page">
+                <span className="tags top-tags">&lt;body&gt;</span>
+
+                <Outlet />
+                <span className="tags bottom-tags">
+                    &lt;/body&gt;
+                    <br />
+                    <span className="bottom-tag-html">&lt;/html&gt;</span>
+                </span>
             </div>
         </>
     );
 }
 
-export default Index;
+export default Layout;
