@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Loader from 'react-loaders'
 import LogoTitle from '../../assets/images/logo-s.png';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
@@ -60,6 +61,8 @@ function Home() {
                 </div>
                 {/* <Logo /> */}
             </div>
+            <Loader type="ball-pulse-sync" />
+
         </>
     );
 }

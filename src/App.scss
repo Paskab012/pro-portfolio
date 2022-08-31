@@ -1,7 +1,7 @@
 $primary-color: #ffd700;
 
 @import 'animate.css';
-@import '~loaders.css/src/animations/pacman.scss';
+@import 'loaders.css/src/animations/ball-pulse-sync.scss';
 
   input,
   textarea {
@@ -20,7 +20,7 @@ $primary-color: #ffd700;
     margin: auto;
     top: 0;
     bottom: 0;
-    width: 50px;
+    width: 100px;
     height: 50px;
     animation: fadeOut 1s 1s;
     animation-fill-mode: forwards;
