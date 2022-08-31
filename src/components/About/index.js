@@ -29,24 +29,25 @@ const About = () => {
                         <AnimatedLetters
                             letterClass={letterClass}
                             strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
-                            idx={15}
+                            idx={16}
                         />
                     </h1>
                     <p>
-                        I’m a full-stack software developer! I can help you build a product ,
-                        feature or website. Look through some of my work and experience! If you like
-                        what you see and have a project you need coded, don’t hestiate to contact
-                        me.
+                        As a full-stack software developer! I can help you build a product , feature
+                        or website. Look through some of my work and experience! If you like what
+                        you see and have a project you need coded, don’t hestiate to contact me.
                     </p>
+                    <br></br>
                     <p align="LEFT">
                         I'm a very ambitious full-stack developer looking for a role in an
                         established IT company with the opportunity to work with the latest
                         technologies on challenging and diverse projects.
                     </p>
+                    <br></br>
                     <p>
-                        If I need to define myself in one sentence that would be a family person,
-                        father of a beautiful daughter, a sports fanatic, photography enthusiast,
-                        and tech-obsessed!!!
+                        Defining myself in one sentence that would be a family person, a sports
+                        fanatic, technical enthusiast, quick learner, enjoy discovering and
+                        tech-obsessed!
                     </p>
                 </div>
 

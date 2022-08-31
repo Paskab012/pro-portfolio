@@ -42,9 +42,8 @@
 .container.portfolio-page {
     h1 {
         font-size: 53px;
-        font-family: 'Coolvetica';
         color: #ffd700;
-        font-weight: 400;
+        font-weight: 700;
         margin-top: 0;
         position: relative;
         margin-bottom: 40px;
@@ -52,7 +51,6 @@
 
         &:before {
             content: '<h1>';
-            font-family: 'La Belle Aurore', cursive;
             color: #ffd700;
             font-size: 18px;
             position: absolute;
@@ -64,7 +62,6 @@
 
         &:after {
             content: '<h1/>';
-            font-family: 'La Belle Aurore', cursive;
             color: #ffd700;
             font-size: 18px;
             line-height: 18px;
@@ -77,9 +74,8 @@
     }
 
     p {
-        font-size: 13px;
-        color: #fff;
-        font-family: sans-serif;
+        font-size: 15px;
+        color: black;
         font-weight: 300;
         max-width: fit-content;
         animation: pulse 1s;
@@ -103,6 +99,8 @@
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
+        opacity: 1;
+        // background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #eeeeee 4px ), repeating-linear-gradient( #00000055, #000000 );
     }
 
     .text-animate-hover {
